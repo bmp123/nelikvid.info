@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Roboto-Light; /* Имя шрифта */
+    src: url(fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: 0;
+	font-family: Roboto-Light;
+}
+
+header{
+	padding: 30px;
+
+	background: #6379B2;
+}
+
+header > a{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 300; 
+	text-decoration: none;
+}
+header > a > p{
+	font-size: 14px;
+	margin-left: 150px;
+}
+#main-menu{
+	background: #FF876B; 
+}
+#main-menu > ul{
+	padding: 10px;
+}
+#main-menu > ul > li{
+	margin-left: 5px;
+	display: inline-block;
+}
+
+#dropdown-inside{
+	display: none;
+	padding: 20px 15px 20px 15px;
+
+	list-style-type: none;
+	position: absolute;
+	background: #FF876B;
+}
+#dropdown-inside > li{
+	margin-top: 5px;
+}
+#dropdown-inside > li > a{
+	color: #212121;
+
+	text-decoration: none;
+}
+#dropdown-inside > li > a:hover{
+	text-decoration: underline;
+}
